@@ -1,0 +1,52 @@
+.header__link{
+	display: flex;
+	justify-content: center;
+}
+
+.link{
+	padding-right: 50px;
+	display: flex;
+	justify-content: center;
+	margin:20px 0;
+	color: DeepPink;
+
+	font-size: 50px;
+}
+body { 
+    display: flex;   
+  }
+
+  aside { 
+    width: 20vw;  
+ }
+
+ main { 
+    flex: 1;   
+  }
+
+  aside {
+      background: LightBlue;
+  }
+
+  main {
+      background: Pink;
+  }
+
+  html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+  font-size: 40px;
+}

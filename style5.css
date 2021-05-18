@@ -1,0 +1,54 @@
+.header__link{
+	display: flex;
+	justify-content: center;
+}
+
+.link{
+	padding-right: 50px;
+	display: flex;
+	justify-content: center;
+	margin:20px 0;
+	color: DeepPink;
+	font-size: 20px;
+}
+
+.media { 
+    display: flex;  
+ }
+ .media-body { 
+    flex: 1;  
+ }
+ .media {  
+    align-items: flex-start;   
+  }
+
+  .media-heading {
+    padding: 20px;
+    border-radius: 50px;
+    background: Salmon;
+  }
+
+  p {
+    padding: 20px;
+    background: Tan;
+  }
+  body {
+    margin: 100px 400px;
+  }
+  .media-object {
+    border-radius: 50px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+  font-size: 40px;
+}
+    

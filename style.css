@@ -1,0 +1,70 @@
+.cards {
+  display: flex;
+ align-items: flex-start;
+ justify-content: center
+}
+
+.card {
+ flex: 0 0 250px;
+}
+
+
+body {
+ margin: 0
+}
+.cards {
+ min-height: 100vh;
+}
+.card {
+ margin: 12px; 
+ background: DeepPink;
+ border-radius: 7px;
+ padding: 0 0 50px 0
+}
+.card >header {
+ background: LightPink;
+ height: 200px;
+ border-radius:  7px 7px 0 0;
+ font-size: 200%;
+ text-align: center;
+}
+.card > ul {
+ list-style: none;
+ padding: 0;
+}
+.card > ul li {
+ height: 20px;
+ width: 90%;
+ margin: 20px auto;
+ background: rgba(255,255,255, 0.4);
+}
+.card button {
+ width: 50%;
+ height: 40px;
+ border: 10;
+ margin-left: 70px;
+ border-radius: 7px;
+ background: LightGray;
+ 
+}
+.big {
+  flex: 0 0 300px;
+  height: 500px;
+}
+
+.big button {
+  margin-top: 50px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+  font-size: 40px;
+}

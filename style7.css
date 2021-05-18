@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: "";
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: "";
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/*=============ОБНУЛЕНИЕ СТИЛЕЙ=============*/
+.header__link{
+	display: flex;
+	justify-content: center;
+}
+
+.link{
+	padding-right: 50px;
+	display: flex;
+	justify-content: center;
+	margin:20px 0;
+	color: DeepPink;
+	font-size: 50px;
+}
+
+.container{
+	max-width: 1120px;
+	width: 100%;
+	margin: auto;
+}
+
+.form{
+	
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.form2{
+	
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.form3{
+	
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.form__field{
+	
+	font-size: 20px;
+	padding: 5px;
+	flex: 1;
+	border: 1px solid #000;
+}
+
+.form__field2{
+	order: 1;
+	font-size: 20px;
+	padding: 5px;
+	flex: 1;
+	border: 1px solid #000;
+}
+
+.form__field3{
+	
+	font-size: 20px;
+	padding: 5px;
+	flex: 1;
+	border: 1px solid #000;
+}
+
+button{
+	width: 80px;
+}
+
+button img{
+	
+	max-width: 40px;
+}
